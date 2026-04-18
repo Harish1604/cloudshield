@@ -193,6 +193,7 @@ This recording demonstrates the system operating when only a single node is serv
 
 This project demonstrates hands-on understanding of:
 
+
 * Reverse proxy concepts
 * Load balancing strategies
 * Container networking
