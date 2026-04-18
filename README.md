@@ -242,11 +242,7 @@ This project demonstrates hands-on understanding of:
 * Kubernetes deployment
 * Cloud hosting on AWS, Azure, or GCP
 
----
 
-## Resume Description
-
-Built a distributed cloud traffic management platform using FastAPI, Nginx, Docker, Prometheus, and Grafana. Implemented reverse proxy load balancing, multi-node backend routing, and real-time observability dashboards for traffic analytics and infrastructure monitoring.
 
 ---
 
@@ -258,4 +254,4 @@ Harish
 
 ## License
 
-This project is for educational and portfolio purposes.
+This project is for educational
