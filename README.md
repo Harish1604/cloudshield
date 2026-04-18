@@ -26,37 +26,7 @@ It showcases practical concepts used in DevOps, SRE, Cloud Engineering, and back
 
 ## Architecture Overview
 
-```text
-                 Client Requests
-                        |
-                        v
-             +--------------------+
-             |       Nginx        |
-             | Reverse Proxy / LB |
-             +---------+----------+
-                       |
-            +----------+----------+
-            |                     |
-            v                     v
-     +-------------+       +-------------+
-     |  Server A   |       |  Server B   |
-     |   FastAPI   |       |   FastAPI   |
-     +------+------+       +------+------+
-            |                     |
-            +----------+----------+
-                       |
-                       v
-               +--------------+
-               | Prometheus   |
-               | Metrics      |
-               +------+-------+
-                      |
-                      v
-               +--------------+
-               | Grafana      |
-               | Dashboard    |
-               +--------------+
-```
+![Architecture Diagram](./screenshots/arch.png)
 
 ---
 
