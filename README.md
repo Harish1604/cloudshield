@@ -200,6 +200,7 @@ The backend is composed of multiple identical services. Running these as indepen
 ### Grafana Dashboard View
 The Grafana dashboard provides real-time visualization of the metrics collected by Prometheus, allowing us to monitor total requests, requests per second, and traffic distribution among the backend nodes.
 
+
 ![Grafana Dashboard](./screenshots/dashboard.png)
 
 ### Load Balancing Demo
