@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  server-a:
+    build: ./server-a
+    container_name: server-a
+
+  server-b:
+    build: ./server-b
+    container_name: server-b
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - server-a
+      - server-b
