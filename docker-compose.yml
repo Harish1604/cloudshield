@@ -18,3 +18,18 @@ services:
     depends_on:
       - server-a
       - server-b
+  
+  prometheus:
+    build: ./prometheus
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    depends_on:
+      - server-a
+      - server-b
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
